@@ -6,13 +6,13 @@ if (salary<=0){
 	        System.out.println("wrong input!");}
 	        else{
 	        if (salary<= 10000){
-	            int res= (int)(salary - salary* 0.15);
+	            double res= salary - salary* 0.15;
 	         System.out.println(res);}
 	        if (salary>10000 && salary <= 20000){
-	             int res= (int)(salary - salary*0.18);
+	             double res= salary - salary*0.18;
 	         System.out.println(res);}
 	        if (salary> 20000){
-	            int res= (int) (salary - salary*0.2);
+	            double res= salary - salary*0.2;
 	         System.out.println(res);}}
     }
 }
